@@ -1,2 +1,2 @@
 # WzToast
-Toast based on zepto ..
+Toast based on zepto .
