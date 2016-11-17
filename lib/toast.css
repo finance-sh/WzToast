@@ -1,0 +1,38 @@
+#toast {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-left: -2.7rem;
+    z-index: 9999;
+    width: 5.4rem;
+    padding: .2rem .3rem;
+    background: #000;
+    opacity: .7;
+    border-radius: .1rem;
+}
+#toast p{
+    text-align:center;
+    font-size:.28rem;
+    color:#f2f2f2;
+    line-height:.48rem
+}
+.fade-in-toast {
+    animation-name:fade-in-toast;
+}
+@keyframes fade-in-toast {
+    0% {
+        opacity:0
+    }
+
+    100% {
+        opacity:.7
+    }
+}
+
+/*== animate ==*/
+.animate {
+    -webkit-animation-duration:0.35s;
+    animation-duration:0.35s;
+    -webkit-animation-fill-mode:both;
+    animation-fill-mode:both;
+}

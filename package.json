@@ -1,0 +1,14 @@
+{
+  "name": "wz-toast",
+  "version": "1.0.0",
+  "description": "toast",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+
+  },
+  "author": "finance-sh",
+  "license": "MIT"
+}
